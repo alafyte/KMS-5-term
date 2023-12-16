@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QCARConfig>
+    <Tracking>
+        <ImageTarget name="IMG_20231203_143952" size="1.000000 0.640204"/>
+        <ImageTarget name="curtis_box.Bottom" size="0.038000 0.038000"/>
+        <ImageTarget name="curtis_box.Right" size="0.038000 0.038000"/>
+        <ImageTarget name="curtis_box.Top" size="0.038000 0.038000"/>
+        <ImageTarget name="curtis_box.Left" size="0.038000 0.038000"/>
+        <ImageTarget name="curtis_box.Front" size="0.038000 0.038000"/>
+        <ImageTarget name="curtis_box.Back" size="0.038000 0.038000"/>
+        <MultiTarget name="curtis_box">
+            <Part name="curtis_box.Left" translation="-0.01899999938905239 0 0" rotation="AD: 0 1 0 -90"/>
+            <Part name="curtis_box.Right" translation="0.01899999938905239 0 0" rotation="AD: 0 1 0 90"/>
+            <Part name="curtis_box.Front" translation="0 0 0.01899999938905239" rotation="AD: 1 0 0 0"/>
+            <Part name="curtis_box.Back" translation="0 0 -0.01899999938905239" rotation="AD: 0 1 0 180"/>
+            <Part name="curtis_box.Top" translation="0 0.01899999938905239 0" rotation="AD: 1 0 0 -90"/>
+            <Part name="curtis_box.Bottom" translation="0 -0.01899999938905239 0" rotation="AD: 1 0 0 90"/>
+        </MultiTarget>
+    </Tracking>
+</QCARConfig>
